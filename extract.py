@@ -35,8 +35,6 @@ def extract_data(file, api_key):
         pressure = data['main']['pressure']
         humidity = data['main']['humidity']
         wind_speed = data['wind']['speed']
-        lat = data['coord']['lat']
-        lon = data['coord']['lon']
         city = data['name']
         date = data['dt']
         timezone = data['timezone']
